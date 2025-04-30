@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carte de visite - Kei LE BOSS</title>
+  <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="icon-192.png" />
+</head>
+<body>
+
+  <button id="themeToggle">🌓 Mode Sombre/Clair</button>
+
+  <div class="card">
+    <div class="avatar"></div>
+    <h1>Kei LE BOSS</h1>
+    <p>Développeur Web | BTS SIO SLAM</p>
+    <p>🌍 Quimper, France</p>
+    
+    <div class="skills">
+      <h2>Compétences</h2>
+      <ul>
+        <li>HTML / CSS / JS</li>
+        <li>PHP / MySQL</li>
+        <li>Java / Android</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </div>
+
+    <div class="links">
+      <a href="mailto:keitini@example.com">✉️ Email</a>
+      <a href="https://github.com/keitini" target="_blank">💻 GitHub</a>
+      <a href="https://linkedin.com/in/keitini" target="_blank">🔗 LinkedIn</a>
+    </div>
+
+    <canvas id="qrcode"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
